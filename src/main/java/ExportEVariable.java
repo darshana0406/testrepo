@@ -27,6 +27,8 @@ public class ExportEVariable {
             System.setProperty("Export_URL", "https://bots.kore.ai/api/public/bot/st-fa3c2d6e-128d-5e18-a60a-eca34e4a9132/export");
             System.setProperty("ExportStatus_URL", "https://bots.kore.ai/api/public/bot/st-fa3c2d6e-128d-5e18-a60a-eca34e4a9132/export/status");
             System.setProperty("gitrepo", "git@github.com:darshana0406/BotExportFiles.git");
+             System.setProperty("ZipFile_Path", "fullexport.zip");
+        System.setProperty("Dest_Dir", "ExportBot");
         }
         // for qa use workspace : VB and bot : demobot2
         else if(env.equals("qa")){
@@ -34,6 +36,8 @@ public class ExportEVariable {
             System.setProperty("Export_URL", "https://bots.kore.ai/api/public/bot/st-c72008d0-ce30-571b-ba13-1078b89dbef4/export");
             System.setProperty("ExportStatus_URL", "https://bots.kore.ai/api/public/bot/st-c72008d0-ce30-571b-ba13-1078b89dbef4/export/status");
             System.setProperty("gitrepo", "git@github.com:darshana0406/BotExportFiles.git");
+             System.setProperty("ZipFile_Path", "fullexport.zip");
+        System.setProperty("Dest_Dir", "ExportBot");
         }
         // for dev use diffrent account workspace : DB and bot : Exportbot
         else {
@@ -41,11 +45,12 @@ public class ExportEVariable {
             System.setProperty("Export_URL", "https://bots.kore.ai/api/public/bot/st-e5669197-991d-5971-9417-a422368a0805/export");
             System.setProperty("ExportStatus_URL", "https://bots.kore.ai/api/public/bot/st-e5669197-991d-5971-9417-a422368a0805/export/status");
             System.setProperty("gitrepo", "git@github.com:darshana0406/BotExportFiles.git");
+             System.setProperty("ZipFile_Path", "fullexport.zip");
+        System.setProperty("Dest_Dir", "ExportBot");
         }
             
         
-        System.setProperty("ZipFile_Path", "fullexport.zip");
-        System.setProperty("Dest_Dir", "ExportBot");
+       
          
         
         
